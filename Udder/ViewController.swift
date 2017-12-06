@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("Hello cow.")
+        print("test")
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +25,8 @@ class ViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(true)
     }
+    
+    
 
 
 }
